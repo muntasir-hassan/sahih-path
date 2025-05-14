@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import imgSrc from "/sahih path banner logo.png";
+import imgSrc from "/sahih path banner logo.webp";
 import { Link } from "react-router-dom";
 const Home = () => {
   return (
