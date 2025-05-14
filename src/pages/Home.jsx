@@ -12,7 +12,7 @@ const Home = () => {
             <img
               src={imgSrc}
               alt="Sahih Path Banner"
-              className="mx-auto rounded-md shadow-md max-w-96"
+              className="mx-auto rounded-md shadow-md md:w-96 max-md:w-96 max-sm:w-[300px]"
             />
           </div>
 
