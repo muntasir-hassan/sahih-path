@@ -39,7 +39,7 @@ const BuyQuizPage = () => {
     if (storedPoints !== null) {
       setUserPoints(Number(storedPoints));
     } else {
-      const initial = 500;
+      const initial = 0;
       setUserPoints(initial);
       localStorage.setItem("userPoints", initial.toString());
     }
